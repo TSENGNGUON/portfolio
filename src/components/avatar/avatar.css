@@ -1,0 +1,24 @@
+.avatar {
+    width: 511px;
+    height: 638px;
+    background-color: #000000;
+    margin-right: 36px;
+    border-radius: 10px;
+}
+
+.avatar img {
+    height: 523.5px;
+    width: 382px;
+}
+
+.avatar .box_img {
+    width: 500px;
+    height: 625px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+}
+

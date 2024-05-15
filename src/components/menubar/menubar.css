@@ -1,0 +1,84 @@
+.menubar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 113px;
+    background-color: transparent;
+    display: flex;
+    color: hsl(0, 0%, 100%);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 50px 50px;
+}
+
+/* Logo of the Page */
+
+.menubar .logo {
+    position: relative;
+    margin-left: 61px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #18191F;
+    background-color: #000000;
+    border-radius: 50%;
+    width: 68.66px;
+    height: 67.28px;
+}
+
+.menubar .logo span.front {
+    position: fixed;
+    background-color: #FFDD55;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64.66px;
+    height: 63.28px;
+    border-radius: 100%;
+    border: 1.56px solid #000000;
+    z-index: 2;
+}
+
+
+.menubar .logo span.back {
+    position: fixed;
+    left: 65px;
+    top: 25px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64.66px;
+    height: 63.28px;
+    border-radius: 100%;
+    border: 1.56px solid #000000;
+    z-index: 1;
+}
+
+/* Menu List  */
+
+.menu_list {
+    position: fixed;
+    display: flex;
+    margin-left: 521px;
+    width: 674px;
+    height: 44px;
+
+}
+
+.menu_list li {
+    font-size: 36px;
+    height: 44px;
+    color: #FFFFFF;
+    list-style-type: none;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.menu_list li:first-of-type {
+    margin-right: 48px;
+}
+
+
+#contact {
+    width: 200px;
+}

@@ -1,0 +1,48 @@
+
+.section_btn .btn_Hire_me {
+    position: relative;
+    width: 202px;
+    height: 70px;
+}
+
+.section_btn .btn_Hire_me .btn_front_bg {
+    width: 194px;
+    height: 63px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+}
+
+
+.section_btn .btn_Hire_me .btn_front_bg a {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn_Hire_me:hover .btn_front_bg {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+
+.btn_Hire_me:hover .btn_front_bg a{
+    color: #000000;
+}
+
+
+
+.section_btn .btn_Hire_me .btn_bg {
+    width: 194px;
+    height: 63px;
+    position: absolute;
+    top: 9px;
+    left: 8px;
+    background-color: #00C6AE;
+    border-radius: 15px;
+    z-index: -1;
+}
+

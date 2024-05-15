@@ -1,0 +1,63 @@
+.information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 895px;
+}
+
+
+.info_personal {
+    margin-left: 53px;
+}
+
+.info_personal p {
+    font-size: 64px;
+    font-weight: 800;
+    color: #18191F;
+    
+}
+
+.info_personal .name {
+    margin-bottom: 39px;
+}
+
+.skills {
+    width: 500px;
+    display: flex;
+}
+
+.skills span {
+    color: #474A57;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 36px;
+}
+
+.section_btn {
+    display: flex;
+    margin-top: 36px;
+    width: 600px;
+}
+
+
+/* avatar main box */
+.avatar {
+    width: 511px;
+    height: 638px;
+    background-color: #000000;
+    margin-right: 36px;
+    border-radius: 10px;
+}
+
+/* social main box */
+.social {
+    width: 96px;
+    height: 96px;
+    border-radius: 100px;
+    background-color: #ffffff;
+    margin-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
