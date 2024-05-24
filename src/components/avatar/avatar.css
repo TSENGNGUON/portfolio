@@ -7,11 +7,13 @@
 }
 
 .avatar img {
+    position: absolute;
     height: 523.5px;
     width: 382px;
 }
 
 .avatar .box_img {
+    position: relative;
     width: 500px;
     height: 625px;
     display: flex;

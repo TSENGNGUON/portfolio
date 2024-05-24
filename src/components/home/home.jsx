@@ -1,9 +1,13 @@
 import React from 'react'
 import './home.css'
-import Button from '../button/button'
 import Avatar from '../avatar/avatar'
 import Social from '../social/social'
 import Partbox from '../partbox/partbox'
+import Button from '../Button/Button'
+import './../Button/button.css'
+import Services from '../services/Services'
+import ContactMe from '../contactMe/ContactMe'
+import Footer from '../footer/Footer'
 function Home() {
   return (
    <div>
@@ -16,11 +20,10 @@ function Home() {
                 <span>React Js Developer</span>
             </div>
             <div className='section_btn'>
-            
-            <Button btn={"Hire me"} />
-            <Button btn={"Download CV"} width={{width:278,textAlign:"center",marginLeft:20}} />
+            <Button  content={"Hire me"} />
+            <Button  content={"Download CV"} style={{width:278,marginLeft:20}} align={{width:278,right:-30}}/>
             </div>
-           
+            
         </div>
         <div className='avatar-home'>
             <div className='avatar'>
@@ -30,9 +33,12 @@ function Home() {
         <div className='social'>
         <Social />
         </div>
-    </section>
-    <Partbox /> 
-   </div>
+        </section>
+        <Partbox />
+        <Services />
+        <ContactMe />
+        <Footer />
+        </div>
   )
 }
 

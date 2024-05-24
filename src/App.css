@@ -13,6 +13,7 @@
 
 body {
   background-color: #FFDD55;
+  overflow-x: hidden;
 }
 
 .bg_menubar {

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Box from './Box/box'
 import Instagram from './../../assets/instagram.svg'
 import Facebook from './../../assets/facebook.svg'
@@ -11,13 +11,12 @@ import GreyYouTube from './../../assets/grey-youtube.svg'
 
 
 
-function Social() {
+function Social({flex}) {
+
+
   return (
-    <div className='box_social'>
-        <Box img={GreyInstagram} />       
-        <Box img={GreyFaceBook} />       
-        <Box img={GreyTwitter} />       
-        <Box img={GreyYouTube} />       
+    <div style={flex} className='box_social'>
+            <Box style={{marginBottom:7}} />
     </div>
   )
 }
