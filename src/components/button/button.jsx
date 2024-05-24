@@ -1,7 +1,7 @@
-export default function Button({content,style,align}){
+export default function Button({content,style,align,cv}){
     return(
         <div className="frame" style={style}>
-            <a href="#" style={style}>{content}</a>
+            <a href={cv} style={style} download={cv}>{content}</a>
             <div className="btn_color" style={align}></div>
         </div>
     )

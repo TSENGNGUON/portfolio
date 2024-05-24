@@ -8,6 +8,8 @@ import './../Button/button.css'
 import Services from '../services/Services'
 import ContactMe from '../contactMe/ContactMe'
 import Footer from '../footer/Footer'
+import CV from '../../assets/cv.pdf'
+
 function Home() {
   return (
    <div>
@@ -21,7 +23,7 @@ function Home() {
             </div>
             <div className='section_btn'>
             <Button  content={"Hire me"} />
-            <Button  content={"Download CV"} style={{width:278,marginLeft:20}} align={{width:278,right:-30}}/>
+            <Button cv={CV} content={"Download CV"} style={{width:278,marginLeft:20}} align={{width:278,right:-30}}/>
             </div>
             
         </div>

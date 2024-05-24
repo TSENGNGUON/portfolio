@@ -8,7 +8,7 @@ import Youtube from './../../../assets/youtube.svg'
 
 function Box({ style }) {
   const boxData = Data.map((item) => (
-    <div style={style} className="social_frame">
+    <div  className="social_frame">
       <div className="icon_frame">
         <img src={item.img} />
       </div>
@@ -18,7 +18,7 @@ function Box({ style }) {
   
 
 
-  return <div className="box_social ">{boxData}</div>;
+  return <div style={style} className="box_social ">{boxData}</div>;
 }
 
 export default Box;

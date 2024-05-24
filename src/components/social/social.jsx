@@ -16,7 +16,7 @@ function Social({flex}) {
 
   return (
     <div style={flex} className='box_social'>
-            <Box style={{marginBottom:7}} />
+            <Box style={{marginBottom:30}} />
     </div>
   )
 }

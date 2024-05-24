@@ -1,6 +1,6 @@
 import React from 'react'
 import './avatar.css'
-import myPic from './../../assets/gojo.jpg'
+import myPic from './../../assets/me.jpg'
 
 function Avatar({style}) {
   return (

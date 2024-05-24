@@ -4,20 +4,21 @@
     font-size: 48px;
     font-weight: bolder;
     color: #18191F;
-    background-color: #ffffff;
     border: 1px solid #000000;
     border-radius: 50%;
     width: 68.66px;
     height: 67.28px;
 }
 
-.menubar .logo span.front {
+.menubar .logo a.front {
     background-color: #FFDD55;
     display: flex;
+    text-decoration: none;
     justify-content: center;
     align-items: center;
     width: 64.66px;
     height: 63.28px;
+    color: #18191F;
     border-radius: 100%;
     border: 1.56px solid #000000;
     z-index: 2;
