@@ -5,7 +5,6 @@ import { Route, Routes } from 'react-router-dom'
 import About from './components/about/about'
 import Home from './components/home/home'
 import Contact from './components/contact/contact'
-import './components/Button/button.css'
 function App() {
   return (
     <div>
