@@ -14,7 +14,6 @@ function Menubar() {
         <Link style={{textDecoration:"none",zIndex:999}} to={"/"}><li>Home</li></Link>
         <Link style={{textDecoration:"none",zIndex:999}}  to={"/about"}><li>About</li></Link>
         <Link style={{textDecoration:"none",zIndex:999}}  to={"/contact"}><li id='contact'>Contact us</li></Link>
-        <Link style={{textDecoration:"none",zIndex:999}}  to={"/team"}><li>Team</li></Link>
       </ul>
     </div>
   )

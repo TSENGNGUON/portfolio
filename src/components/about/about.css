@@ -1,0 +1,21 @@
+.content {
+    width: 1200;
+    height: 100%;
+    display: flex;
+    margin-top: 100px;
+    margin-left:100px;
+}
+
+.content img{
+    width: 500px;
+}
+
+.content .about p.title {
+    font-size: 40px;
+    color: #333333;
+    margin-left: 100px;
+}
+
+.content .about p{
+    margin-left: 100px;
+}
