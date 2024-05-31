@@ -5,9 +5,7 @@ import { Route, Routes } from 'react-router-dom'
 import About from './components/about/about'
 import Home from './components/home/home'
 import Contact from './components/contact/contact'
-import Button from './components/Button/Button'
 import './components/Button/button.css'
-import Card from './components/Card/Card'
 function App() {
   return (
     <div>
