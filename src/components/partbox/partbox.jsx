@@ -3,7 +3,7 @@ import './partbox.css'
 import Avatar from '../avatar/avatar'
 import Button from '../Button/Button'
 import './../Button/button.css'
-import MyCV from './../../assets/cv.pdf'
+import MyCV from './../../assets/Resume.pdf'
 
 
 function Partbox() {

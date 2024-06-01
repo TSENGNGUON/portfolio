@@ -4,11 +4,15 @@ import './contact.css'
 import { FaFacebookF } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaTwitter } from "react-icons/fa";
+import Avatar from '../avatar/avatar';
+import Footer from '../footer/Footer';
 
 function Contact() {
   return (
+    <>
     <div className='main'>
-      <img className='img' src={myPic} alt="Me" />
+      {/* <img className='img' src={myPic} alt="Me" /> */}
+      <Avatar />
       <div className='contact'>
         <p className='title_p'>Contact Us</p>
         <div className='modal'>
@@ -51,6 +55,8 @@ function Contact() {
       </div>
 
     </div>
+    <Footer />
+    </>
   )
 }
 

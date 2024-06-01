@@ -8,8 +8,9 @@
 
 .avatar img {
     position: absolute;
-    height: 523.5px;
-    width: 382px;
+    /* height: 523.5px; */
+    width: 100%;
+    border-radius: 10px;
 }
 
 .avatar .box_img {
