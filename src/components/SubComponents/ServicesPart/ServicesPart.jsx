@@ -1,7 +1,7 @@
 import Card from '../../Card/Card'
-import './services.css'
 
-export default function Services(){
+
+export default function ServicesPart(){
     return(
         <div className='services'>
             <div className='header'>

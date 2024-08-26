@@ -1,7 +1,7 @@
 import React from 'react'
 import './home.css'
 import '../SubComponents/button/button.css'
-import Services from '../SubComponents/services/Services'
+import Services from '../SubComponents/ServicesPart/ServicesPart'
 import ContactMe from '../contactMe/ContactMe'
 import NewButton from '../SubComponents/button/NewButton'
 import Footer from '../footer/Footer'
@@ -9,6 +9,7 @@ import MyCV from './../../assets/Resume.pdf'
 import Profile from '../SubComponents/Profile/Profile'
 import MediaLink from '../SubComponents/MediaLink/MediaLink'
 import AboutMePart from '../SubComponents/AboutMePart/AboutMePart'
+import ServicesPart from '../SubComponents/ServicesPart/ServicesPart'
 
 function Home() {
 
@@ -51,7 +52,7 @@ function Home() {
         <MediaLink/>
         </section>
         <AboutMePart />
-        <Services />
+        <ServicesPart />
         <ContactMe />
         {/* <Footer /> */}
         </div>
