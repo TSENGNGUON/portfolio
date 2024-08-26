@@ -1,21 +1,19 @@
 import React from 'react'
 import './home.css'
-import '../SubComponents/button/button.css'
-import Services from '../SubComponents/ServicesPart/ServicesPart'
-import ContactMe from '../contactMe/ContactMe'
-import NewButton from '../SubComponents/button/NewButton'
-import Footer from '../footer/Footer'
+import NewButton from '../SubComponents/Button/NewButton'
 import MyCV from './../../assets/Resume.pdf'
 import Profile from '../SubComponents/Profile/Profile'
 import MediaLink from '../SubComponents/MediaLink/MediaLink'
 import AboutMePart from '../SubComponents/AboutMePart/AboutMePart'
 import ServicesPart from '../SubComponents/ServicesPart/ServicesPart'
+import ContactPart from '../SubComponents/ContactPart/ContactPart'
+import FooterPart from '../SubComponents/FooterPart.jsx/FooterPart'
 
 function Home() {
 
     const leftPart = [
         {
-            id:1, name:"Tun Seng Nguon", skill: "React Js Developer", career: "Web Developer"
+            id:1, name:"Tun Seng Nguon", skill: "React Js Developer", career: "FrontEnd Developer"
         }
     ];
 
@@ -27,7 +25,7 @@ function Home() {
             leftPart.map(item => (
             <div key={item.id} className='left-part'>
 
-            <p className='name'>Hello,<br/>
+            <p className='name'>Hello, I'm<br/>
             {item.name}
              </p>
             
@@ -39,8 +37,8 @@ function Home() {
 
             {/* Button part */}
             <div className='button-part'>
-            <NewButton buttonName={"Hire Me"}/>
-            <NewButton style={{marginLeft: 25}} buttonName={"Download CV"} link={MyCV}/>
+            <NewButton buttonUrl={"https://t.me/SENG_NGUONN"}  buttonName={"Hire Me"}/>
+            <NewButton buttonUrl={MyCV} style={{marginLeft: 25}} buttonName={"Download CV"} />
             </div>  
         </div>
             ))
@@ -53,8 +51,8 @@ function Home() {
         </section>
         <AboutMePart />
         <ServicesPart />
-        <ContactMe />
-        {/* <Footer /> */}
+        <ContactPart telegramUrl={"https://t.me/SENG_NGUONN"} />
+        <FooterPart />
         </div>
   )
 }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Profile from '../Profile/Profile'
-import NewButton from '../button/NewButton'
+import NewButton from '../Button/NewButton'
+import MyCv from '../../../assets/Resume.pdf'
 
 function AboutMePart() {
 
@@ -39,8 +40,8 @@ function AboutMePart() {
                     </p>
                 </div>
             </div>
-            <NewButton buttonName={"Hire me"}/>
-            <NewButton style={{marginLeft: 19}} buttonName={"Download CV"}/>
+            <NewButton buttonUrl={"https://t.me/SENG_NGUONN"} buttonName={"Hire me"}/>
+            <NewButton buttonUrl={MyCv} style={{marginLeft: 19}} buttonName={"Download CV"}/>
         </div>
     </div>
   )

@@ -4,7 +4,7 @@ import FaceBookIcon from '../../../assets/facebook.svg'
 import TwitterIcon from '../../../assets/twitter.png'
 
 
-const  MediaLink = () => {
+const  MediaLink = (props) => {
 
     const mediaLists = [
         {id: 1, icon:InstagramIcon, alt:"Instagram"},
@@ -14,10 +14,10 @@ const  MediaLink = () => {
 
   
   return (
-    <ul className='fixed right-[25px] top-[406px]'>
+    <ul style={props.style} className='fixed right-[25px] top-[406px]'>
         {
             mediaLists.map(list => (
-            <li key={list.id}  className='p-3 bg-white rounded-full mb-2' >
+            <li key={list.id}  style={props.styleIcons} className='p-3 bg-white rounded-full mb-2' >
             <a  href="#">
             <img className='w-[70px] grayscale hover:filter-none ' src={list.icon} alt={list.alt} />  
             </a>

@@ -1,10 +1,11 @@
 import { Route, Routes, Link } from 'react-router-dom'
-import About from './components/about/about'
-import Home from './components/home/home'
-import Contact from './components/contact/contact'
+import About from './components/About/about'
+import Home from './components/Home/Home'
+import Contact from './components/Contact/contact'
 import Me from './components/Me/Me'
 import './App.css'
 import './list-menu.css'
+import LogoPage from './components/SubComponents/LogoPage/LogoPage'
 
 
 export const App = () => {
@@ -17,6 +18,21 @@ const menuLists = [
   {id: 4, page: "Me", path:"/me"},
 ];
 
+// Style for logo
+const logoHomePage = {
+  boxShadow: "none",
+  border: "2px solid black",
+  position: 'fixed'
+}
+
+// Background logo home page
+
+const bgLogo = {
+  position: 'fixed',
+  zIndex: 5,
+  top: 33
+}
+
   return (
     <>
   
@@ -27,10 +43,7 @@ const menuLists = [
     {/* Menu items */}
       <div className='listOfMenu'>
 
-      <div className='logo'>
-        <span className='front'>A</span>
-        <span className='back'></span>
-      </div>
+      <LogoPage noneShadow={logoHomePage} logoHomePage={bgLogo}/>
 
       <ul className='menu_list ml-[521px]'>
         {menuLists.map(menuList => (
