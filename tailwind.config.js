@@ -8,7 +8,8 @@ module.exports = {
       boxShadow: {
         'custom': "8px 8px 0px #00C6AE",
         'frame': '15px 15px 0px #00C6AE',
-        'fillShadow': '25px 22px 5px rgba(0,0,0,0.5)'
+        'fillShadow': '25px 22px 5px rgba(0,0,0,0.5)',
+        'card': "25px 25px 0px rgba(0,0,0,0.5)"
       },
       transitionProperty: {
         'custom': "all .5s"
