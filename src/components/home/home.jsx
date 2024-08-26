@@ -1,7 +1,7 @@
 import React from 'react'
 import './home.css'
 import '../SubComponents/button/button.css'
-import Services from '../services/Services'
+import Services from '../SubComponents/services/Services'
 import ContactMe from '../contactMe/ContactMe'
 import NewButton from '../SubComponents/button/NewButton'
 import Footer from '../footer/Footer'

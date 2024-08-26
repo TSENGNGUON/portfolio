@@ -1,4 +1,4 @@
-import Card from '../Card/Card'
+import Card from '../../Card/Card'
 import './services.css'
 
 export default function Services(){
