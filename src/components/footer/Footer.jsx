@@ -1,9 +1,7 @@
 import Logo from '../logo/Logo'
-import Social from '../social/social'
 import { FaLocationDot } from "react-icons/fa6";
 import { MdOutlineCopyright } from "react-icons/md";
 import './footer.css'
-import Box from '../social/Box/box';
 
 
 export default function Footer(){
@@ -18,7 +16,7 @@ export default function Footer(){
             like my work contact me and let’s Work <br /><p>Together.</p>
             </pre>
             <div className='link'>
-                <Box style={{ display: 'flex',width: 410,justifyContent: 'space-around'}} />
+                {/* <Box style={{ display: 'flex',width: 410,justifyContent: 'space-around'}} /> */}
                 
             </div>
             <div className='copy_right'>

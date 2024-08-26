@@ -1,29 +1,23 @@
-.information {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.hero-section {
     width: 100%;
     height: 895px;
+    display: flex;
+    align-items: center;
 }
 
-
-.info_personal {
+.left-part{
+    max-width: 45%;
     margin-left: 53px;
+    margin-bottom: 200px;
 }
 
-.info_personal p {
+.left-part .name {
     font-size: 64px;
     font-weight: 800;
     color: #18191F;
-    
-}
-
-.info_personal .name {
-    margin-bottom: 39px;
 }
 
 .skills {
-    width: 500px;
     display: flex;
 }
 
@@ -31,33 +25,17 @@
     color: #474A57;
     font-size: 25px;
     font-weight: 600;
-    margin-top: 36px;
+    margin-top: 18px;
 }
 
-.section_btn {
+.button-part {
     display: flex;
     margin-top: 36px;
-    width: 600px;
+    max-width: 100%;
 }
-
 
 /* avatar main box */
-.avatar {
-    width: 511px;
-    height: 638px;
-    background-color: #000000;
-    margin-right: 36px;
-    border-radius: 10px;
+.right-part {
+    max-width: 100%; 
 }
 
-/* social main box */
-.social {
-    width: 96px;
-    height: 96px;
-    border-radius: 100px;
-    background-color: #ffffff;
-    margin-right: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}

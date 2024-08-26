@@ -1,45 +1,59 @@
 import React from 'react'
 import './home.css'
-import Avatar from '../avatar/avatar'
-import Social from '../social/social'
-import Partbox from '../partbox/partbox'
-import Button from '../Button/Button'
-import './../Button/button.css'
+import '../SubComponents/button/button.css'
 import Services from '../services/Services'
 import ContactMe from '../contactMe/ContactMe'
+import NewButton from '../SubComponents/button/NewButton'
 import Footer from '../footer/Footer'
 import MyCV from './../../assets/Resume.pdf'
+import Profile from '../SubComponents/Profile/Profile'
+import MediaLink from '../SubComponents/MediaLink/MediaLink'
+import AboutMePart from '../SubComponents/AboutMePart/AboutMePart'
 
 function Home() {
+
+    const leftPart = [
+        {
+            id:1, name:"Tun Seng Nguon", skill: "React Js Developer", career: "Web Developer"
+        }
+    ];
+
   return (
    <div>
-    <section className='information'>
-        <div className='info_personal'>
-            <p className='name'>Hello,</p>
-            <p>I'm Nguon</p>
-            <div className='skills'>
-                <span>Web Developer ,</span>
-                <span>React Js Developer</span>
-            </div>
-            <div className='section_btn'>
-            <Button  content={"Hire me"} />
-            <Button cv={MyCV} content={"Download CV"} style={{width:278,marginLeft:20}} align={{width:278,right:-30}}/>
-            </div>
+    <section className='hero-section'>
+        {
+            // Left part
+            leftPart.map(item => (
+            <div key={item.id} className='left-part'>
+
+            <p className='name'>Hello,<br/>
+            {item.name}
+             </p>
             
-        </div>
-        <div className='avatar-home'>
-            <div className='avatar'>
-            <Avatar />
+            {/* Name part */}
+            <div className='skills'>
+                <span>{item.career} ,</span>
+                <span>{item.skill}</span>
             </div>
+
+            {/* Button part */}
+            <div className='button-part'>
+            <NewButton buttonName={"Hire Me"}/>
+            <NewButton style={{marginLeft: 25}} buttonName={"Download CV"} link={MyCV}/>
+            </div>  
         </div>
-        <div className='social'>
-        <Social />
-        </div>
+            ))
+        }
+
+        <div className='right-part'>
+            <Profile style={{marginLeft: 155}}/>
+        </div>  
+        <MediaLink/>
         </section>
-        <Partbox />
+        <AboutMePart />
         <Services />
         <ContactMe />
-        <Footer />
+        {/* <Footer /> */}
         </div>
   )
 }

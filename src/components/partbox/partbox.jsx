@@ -1,8 +1,7 @@
 import React from 'react'
 import './partbox.css'
 import Avatar from '../avatar/avatar'
-import Button from '../Button/Button'
-import './../Button/button.css'
+import Button from '../SubComponents/button/button'
 import MyCV from './../../assets/Resume.pdf'
 
 
@@ -14,7 +13,7 @@ function Partbox() {
     <Info />  
     </div>
   )
-}
+} 
 
 function Info(){
   return(
