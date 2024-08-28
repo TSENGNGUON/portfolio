@@ -18,6 +18,9 @@ module.exports = {
       },
       backgroundColor: {
         'bgBlue': '#106EE8'
+      },
+      dropShadow: {
+        'custom-dark': '0 10px 8px rgba(0, 0, 0, 0.5)',
       }
     },
   },

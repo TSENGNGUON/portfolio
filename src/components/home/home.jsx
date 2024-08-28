@@ -1,7 +1,7 @@
 import React from 'react'
 import './home.css'
 import NewButton from '../SubComponents/Button/NewButton'
-import MyCV from './../../assets/Resume.pdf'
+import MyCV from './../../assets/Tun_SengNguon.pdf'
 import Profile from '../SubComponents/Profile/Profile'
 import MediaLink from '../SubComponents/MediaLink/MediaLink'
 import AboutMePart from '../SubComponents/AboutMePart/AboutMePart'

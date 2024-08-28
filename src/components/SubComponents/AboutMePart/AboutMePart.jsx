@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Profile from '../Profile/Profile'
 import NewButton from '../Button/NewButton'
-import MyCv from '../../../assets/Resume.pdf'
+import MyCv from '../../../assets/Tun_SengNguon.pdf'
 
 function AboutMePart() {
 
@@ -36,8 +36,7 @@ function AboutMePart() {
                 <div className='relative bottom-4'>
                     <p className='text-[32px] font-bold text-[#FFDD55]'>Frontend Developer</p>
                     <p className='relative top-1 font-bold text-[24px] text-[#FFFFFF]'>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda quis quisquam deleniti ab cupiditate nam excepturi, impedit dolorem temporibus magnam. Perferendis delectus omnis distinctio temporibus inventore! Aperiam soluta nobis modi!
-                    </p>
+                    Hi, I'm Tun Seng Nguon, a passionate Frontend Developer with a keen eye for detail and a love for crafting clean, user-friendly web experiences. I specialize in turning complex problems into simple, beautiful, and intuitive interfaces using technologies like React, Tailwind and some CSS.                     </p>
                 </div>
             </div>
             <NewButton buttonUrl={"https://t.me/SENG_NGUONN"} buttonName={"Hire me"}/>

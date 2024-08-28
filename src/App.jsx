@@ -1,5 +1,5 @@
 import { Route, Routes, Link } from 'react-router-dom'
-import About from './components/About/about'
+import AboutRoute from './components/AboutRoute/AboutRoute'
 import Home from './components/Home/Home'
 import Contact from './components/Contact/contact'
 import Me from './components/Me/Me'
@@ -57,7 +57,7 @@ const bgLogo = {
     {/* Manage routes */}
       <Routes>
       <Route path='/' element={<Home />}/>
-      <Route path='/about' element={<About />}/>
+      <Route path='/about' element={<AboutRoute />}/>
       <Route path='/contact' element={<Contact />}/>
       <Route path='/me' element={<Me />}/>
       </Routes>
